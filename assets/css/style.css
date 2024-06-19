@@ -84,12 +84,27 @@ h1, h2, h3, h4, h5, h6{
 
 .btn{border-radius: 0;}
 .btn-o {
-    border: 1px solid #3A4F52;
-    color: #3A4F52;
+    border: 1px solid lightgray;
+    color: lightgray;
+	width: 150px;
+	height: 38px;
+	padding: 8px 15px 7px 15px;
+	font-size: 13px;
+	margin-top: 15px;
+	font-weight: bold;
+	transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.content-center {
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 .btn-o:hover {
-    background: #3A4F52;
-    color: white;
+    background: black;
+    color: whitesmoke;
+	border: none;
+
 }
 .btn.btn-o-white {
     border: 1px solid white;
@@ -264,7 +279,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #services {
-	background-image: url(../images/traffic.jpg);
+	background-image: url(../images/mac_glasses1-1000x600a.jpg);
 	color: white;
 }
 #parallax {
